@@ -104,13 +104,11 @@ venv\\Scripts\\activate     # Windows
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Executar o treinamento
+### 4️⃣ Executar o modelo
 
 ```bash
-python train.py
+uvicorn app:app --reload
 ```
-
-> Indicativo: ajuste o nome do script conforme a estrutura real do projeto.
 
 ---
 
